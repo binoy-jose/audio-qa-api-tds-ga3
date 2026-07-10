@@ -69,6 +69,7 @@ def compute_statistics(data):
     return stats
 
 @app.post("/answer-audio")
+@app.post("/answer")
 async def process_audio(request: AudioRequest):
     try:
         # 1. Decode base64 audio
