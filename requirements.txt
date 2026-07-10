@@ -1,8 +1,6 @@
 fastapi
 uvicorn
-openai-whisper
 numpy
 pandas
+requests
 python-multipart
-torch
-torchaudio
